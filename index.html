@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,16 +11,13 @@
 	</title>
 
 	<style>
-
-		/* Styling the Body element i.e. Color,
-		Font, Alignment */
 		body {
 			background-color: #05c46b;
 			font-family: Verdana;
 			text-align: center;
 		}
 
-		/* Styling the Form (Color, Padding, Shadow) */
+		
 		form {
 			background-color: #fff;
 			max-width: 500px;
@@ -28,20 +26,19 @@
 			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
 		}
 
-		/* Styling form-control Class */
+		
 		.form-control {
 			text-align: left;
 			margin-bottom: 25px;
 		}
 
-		/* Styling form-control Label */
+		
 		.form-control label {
 			display: block;
 			margin-bottom: 10px;
 		}
 
-		/* Styling form-control input,
-		select, textarea */
+		
 		.form-control input,
 		.form-control select,
 		.form-control textarea {
@@ -53,15 +50,14 @@
 			width: 95%;
 		}
 
-		/* Styling form-control Radio
-		button and Checkbox */
+		
 		.form-control input[type="radio"],
 		.form-control input[type="checkbox"] {
 			display: inline-block;
 			width: auto;
 		}
 
-		/* Styling Button */
+		
 		button {
 			background-color: #05c46b;
 			border: 1px solid #777;
@@ -79,16 +75,15 @@
 <body>
 	<h1>Survey Form</h1>
 
-	<!-- Create Form -->
+	
 	<form id="form">
 
-		<!-- Details -->
+		
 		<div class="form-control">
 			<label for="name" id="label-name">
 				Name
 			</label>
 
-			<!-- Input Type Text -->
 			<input type="text"
 				id="name"
 				placeholder="Enter your name" />
@@ -99,7 +94,7 @@
 				Email
 			</label>
 
-			<!-- Input Type Email-->
+			
 			<input type="email"
 				id="email"
 				placeholder="Enter your email" />
@@ -110,7 +105,7 @@
 				Age
 			</label>
 
-			<!-- Input Type Text -->
+			
 			<input type="text"
 				id="age"
 				placeholder="Enter your age" />
@@ -121,7 +116,7 @@
 				Which option best describes you?
 			</label>
 			
-			<!-- Dropdown options -->
+			
 			<select name="role" id="role">
 				<option value="student">Student</option>
 				<option value="intern">Intern</option>
@@ -138,7 +133,7 @@
 				to a friend?
 			</label>
 
-			<!-- Input Type Radio Button -->
+			
 			<label for="recommed-1">
 				<input type="radio"
 					id="recommed-1"
@@ -160,7 +155,7 @@
 			<label>Languages and Frameworks known
 				<small>(Check all that apply)</small>
 			</label>
-			<!-- Input Type Checkbox -->
+			
 			<label for="inp-1">
 				<input type="checkbox"
 					name="inp">C</input></label>
@@ -198,13 +193,13 @@
 				Any comments or suggestions
 			</label>
 
-			<!-- multi-line text input control -->
+			
 			<textarea name="comment" id="comment"
 				placeholder="Enter your comment here">
 			</textarea>
 		</div>
 
-		<!-- Multi-line Text Input Control -->
+		
 		<button type="submit" value="submit">
 			Submit
 		</button>
